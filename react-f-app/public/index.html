@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="./react-f-app/src/app.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -10,25 +11,87 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+  
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">Hello sir</div>
+    <!-- heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quos ullam at nam ab harum cum ratione quia eligendi, modi repellendus, perspiciatis eum!</p>
+
+<!-- class -->
+   <div class="container">
+    <div class="container-Main">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem necessitatibus consectetur suscipit. Repellendus accusantium aut mollitia officiis vitae, vero, excepturi itaque sint adipisci recusandae quidem amet rerum commodi possimus consectetur iusto facere minima!
+    </div>
+   </div>
+
+<!-- id -->
+   <div id="id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequuntur quo iste vero sequi amet, unde officiis eaque facilis, repellat explicabo quisquam accusantium ipsa soluta nisi veniam consectetur facere minus est id nobis repudiandae.</div>
+
+   <!-- image tag -->
+ <input type="image" src="pexels-pixabay-36717.jpg" alt="pexels-pixabay-36717" width="600px" height="300px">
+
+ <!-- br -->
+ <br>
+
+ <!-- bold,italic,underline -->
+ <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nostrum dicta labore?</b>
+ <br>
+ <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, reprehenderit architecto aliquid animi facere voluptas distinctio molestiae debitis omnis praesentium cupiditate.</u>
+ <br>
+ <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae molestiae vel!</i>
+ <!-- link -->
+ <a href="mailto:EMAIL_ADDRESS">EMAIL_ADDRESS</a>
+ <br>
+
+<!-- table -->
+
+<br>
+<!-- form -->
+<form>
+  <label for="name">Name :</label>
+  <input type="name" size="15" required>
+  <br>  <br>
+  <label for="dob">Dob :</label>
+  <input type="date" size="15" required>
+  <br>  <br>
+  <label for="email">Email :</label>
+  <input type="name" size="15" required>  
+  <br><br>
+  <label for="Gender">Gender</label>
+  <input type="radio" size="" required  name="s1">Male  
+  <input type="radio" size="" required name="s1">Female  
+  <br><br>
+  <label for="course">course</label>
+  <input type="checkbox" name="s" id="w">HSC
+  <input type="checkbox" name="s" id="w">SSC
+  <input type="checkbox" name="s" id="w">B.TECH
+  <input type="checkbox" name="s" id="w">M.TECH
+  <br>
+  <br>
+  City
+  <select>
+    <option value=""></option>
+    <option value="">Nanded</option>
+    <option value="">pune</option>
+    <option value="">Mumbai</option>
+    <option value="">Nagpur</option>
+  </select>
+  <br>
+  <br>
+  <button>Submit</button>
+</form>
     
   </body>
 </html>
